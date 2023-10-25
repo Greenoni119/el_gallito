@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+   
+  
+
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> 
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <!--image here--> </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#food">food</a>
+      <a href="#gallery">gallery</a>
+      <a href="#menu">menu</a>
+      <a href="#order">order</a>
+      <a href="#blogs">reviews</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/otstove.jpg) no-repeat;">
+            <div class="content">
+               <span>welcome to</span>
+               <h3>el gallito</h3>
+               <a href="#order" class="btn">order now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/sipping.jpg) no-repeat;">
+            <div class="content">
+               <span>serving brentwood</span>
+               <h3>since 1962</h3>
+               <a href="#order" class="btn">order now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/spread.jpg) no-repeat;">
+            <div class="content">
+               <span></span>
+               <h3>authentic Mexican Cuisine</h3>
+               <a href="#order" class="btn">order now</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+	<!-- our team section start ---------------------------------------------------------------------------------------------------->
+	<section class="our-team" id="team">
+		<h1 class="heading">what We Do</h1>
+
+		<div class="our-chef">
+			<div class="item">
+            
+				<div class="image">
+					<img src="images/qeso.jpg">
+				</div>
+
+				<div class="chef-info">
+					<div>
+						<h3>street vending</h3>
+						<span>across the bay area</span>
+					</div>
+				</div>
+            
+			</div>
+
+			<div class="item">
+				<div class="image">
+					<img src="images/chili.jpg">
+				</div>
+
+				<div class="chef-info">
+					<div>
+						<h3>fresh ingrediants</h3>
+						<span>from local farmers</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image">
+					<img src="images/rice.jpg">
+				</div>
+				<div class="chef-info">
+					<div>
+						<h3>Authentic food</h3>
+						<span>From central mexico</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      
+      <h3>most popular</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+      
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/CONCHA2.png" alt="">
+            <h3>concha</h3>
+            <div class="price">$9.99</div>
+         </div>
+
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/loadedT.png" alt="">
+            <h3>Loaded tacos</h3>
+            <div class="price">$9.99</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/pazole3.png" alt="">
+            <h3>pazole</h3>
+            <div class="price">$14.99</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+   <div id="close-preview"></div>
+</section>
+
+<!-- food preview section ends -->
+
+
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <h3>our menu </h3>
+      <p>each breakfast & dinner option comes with rice, beans and your choice of flour or corn Tortilla</p>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">breakfast</h3>
+            <div class="box-container">
+
+               <div class="box">
+                  <div class="info">
+                     <h3>chilaquiles</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>huevos rancheros</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>huevos con chorizo</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>huevos con nopales</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dinner</h3>
+            <div class="box-container">
+
+               <div class="box">
+                  <div class="info">
+                     <h3> chicharron con chile</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> chicken mole</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> carnitas</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> enchiladas </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               
+            </div>
+         </div>
+
+
+         <div class="swiper-slide slide">
+            <h3 class="title">soups</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3> pazole </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> menudo </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> Sopa de Tortilla </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> Caldo de Camaron </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">street food </h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3> elote </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> loaded nachos </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> esquite </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> loaded tacos </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dessert</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3> concha </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> flan </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> tres leche cake </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3> sopapilla cheesecake bars </h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+         
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+   <div class="heading">
+      
+      <h3>order online</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>address</span>
+               <input type="text" placeholder="enter your address">
+            </div>
+            <div class="inputBox">
+               <span>time of delivery</span>
+               <input id="date" type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <textarea name="" placeholder="tell us what you'll like" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+      </div>  
+    <input type="submit" value="place order" id="btn">
+   </form>
+   
+</section>
+
+<!-- order section ends -->
+
+
+<!-- reserve a seat starts -->
+<div class="reservation" >
+
+   <div class="form">
+      <h1 class="heading">Reserve a table</h1>
+      <form id="rez">
+        
+         <div class="form-holder">
+            <div id="input1">
+               <select>
+                  <option>Single</option>
+                  <option>2 people</option>
+                  <option>3 people</option>
+                  <option>4 people</option>
+               </select>
+
+               <input type="text" name="" placeholder="Time">
+               <input type="text" name="" placeholder="Phone">
+            </div>
+
+            <div>
+               <input type="text" name="" placeholder="Date">
+               <input type="text" name="" placeholder="Name">
+               <input type="email" name="" placeholder="email">
+            </div>
+         </div>
+      
+         <input type="submit" value="book table" id="rezbtn">
+      </form>
+   
+   </div>
+</div>
+
+<!-- reserve a seat ends -->
+
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      
+      <h3>reviews </h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot1.jpeg" alt="">
+               <span>muhammad</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                  
+               </div>
+              <p class="title"> amazing </p>
+               <p>after a long day at work grabbing a buritto from here was worth the long wait at work.</p>
+            
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot2.jpeg" alt="">
+               <span>rachel</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 15th jan, 2021 </a>
+                  
+               </div>
+               <p class="title"> very nestolgic  </p>
+               <p>my family has been coming here for generations, literally. the food has always stayed the same, fantastic.</p>
+            
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot3.jpeg" alt="">
+               <span>deondre</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th october, 2022 </a>
+                  
+               </div>
+               <p class="title"> awesome staff </p>
+               <p>the place has been owned and worked by the same family and they treat eceryone as if they meet you for the first time, very good people</p>
+         
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot4.jpeg" alt="">
+               <span>allison</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 8th april, 2020 </a>
+                  
+               </div>
+               <p class="title"> better than expected </p>
+               <p>dispite having not that many options, the food that they do have is exelent</p>
+         
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot5.jpeg" alt="">
+               <span>jeff</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 8th april, 2020 </a>
+                  
+               </div>
+               <p class="title"> best tacos in brentwood </p>
+               <p>for only 10 dollars you get 8 loaded tacos!! thats so cool</p>
+         
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/shot6.jpeg" alt="">
+               <span>amy</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 2nd march, 2020 </a>
+                  
+               </div>
+               <p class="title"> the pazole is to die for </p>
+               <p>best pazole ive had outside of my grandma's pazole, but thats me being biased lol</p>
+         
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <h3>opening hours</h3>
+         <p>97:00am to 10:00pm <br> monday - friday</p>
+      </div>
+
+      <div class="icons">
+
+         <h3>address</h3>
+         <p> 8540 Brentwood Blvd, Brentwood, CA 94513</p>
+      </div>
+
+      <div class="icons">
+         <h3>phone</h3>
+         <p>(925)634-4992</p>
+         
+      </div>
+
+      <div class="icons">
+         
+         <h3>email</h3>
+         <p>shaikhanas@gmail.com</p>
+         <p>anasbhai@gmail.com</p>
+      </div>
+
+
+   </div>
+
+   <div class="credit"> created by charles greene </span></div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+
+<!-- 
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+-->
+</body>
+</html>
